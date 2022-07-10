@@ -1,0 +1,98 @@
+.navigationbar {
+    display: flex;
+    align-items: center; 
+    border-bottom: 1px solid black;
+    padding: 0px 0px;
+    background-color: rgb(56, 63, 63);
+    position: -webkit-sticky;
+}
+
+.button {
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20pt;
+    cursor: pointer;
+    font-family: monospace;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: rgb(32, 34, 32);
+}
+.content {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    justify-content: space-between;
+}
+.search_input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #c7b8b8;
+    width: 500px;
+}
+.searchForm {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    padding:20px 15px ;
+    
+}
+.links {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    display:flex;
+    text-decoration: none;
+}
+
+.logo{
+    width: 250px;
+    height: 70px;   
+
+}
+.searchForm button{
+    float: left;
+  width: 20%;
+  padding: 10px;
+  background: #626fe6;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.searchForm button:hover{
+    background-color: rgb(44, 8, 129);
+}
+
+.content-title{
+    text-decoration: none;
+}
+
+.page-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 50pt;
+    color: rgb(255, 255, 255);
+    margin-left: 600px;
+    border: 6px solid rgb(24, 2, 77);
+    width: 700px;
+    height: 82  px;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 40px;
+}
+
+.pageinfo-text{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+.page-info:hover{
+    background-color: rgba(25, 2, 77, 0.644);
+}
